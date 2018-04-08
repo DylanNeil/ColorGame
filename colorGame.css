@@ -1,4 +1,4 @@
-body{	
+body{
 	background-color: #232323;
 	margin:0;
 	font-family: "montserrat", "avenir";
@@ -12,11 +12,30 @@ h1{
 	background-color: steelblue;
 	margin: 0;
 	text-transform: uppercase;
+	padding: 15px;
+}
+
+h3{
+	line-height: 1.1;
+	font-weight: normal;
+	color:white;
+	text-align: center;
+	margin: 0;
+	padding: 20px;
+}
+
+p{
+	line-height: 1.1;
+	font-weight: thin;
+	color:white;
+	text-align: center;
+	margin: 0;
 	padding: 20px;
 }
 
 #colorDisplay{
-	font-size: 200%;
+	font-size: 150%;
+	padding: 15px;
 }
 
 #message{
@@ -24,12 +43,6 @@ h1{
 	width: 30%;
 }
 
-h2{
-	color:white;
-	text-align: center;
-	text-transform: uppercase;
-
-}
 
 .square{
 	width: 30%;
@@ -84,5 +97,3 @@ button:hover{
 	color:white;
 	background:steelblue;
 }
-
-
